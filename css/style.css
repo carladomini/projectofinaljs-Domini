@@ -1,0 +1,217 @@
+body {
+    padding-top: 80px;
+   background-color: #a3684d;
+} 
+
+.navbar img{
+    width: 90px;   
+    height: 90%; 
+    margin-left: 10%;
+}
+
+.navbar button{
+ margin-left: 90%; 
+ background-color: black;
+ border: black;
+}
+.clear-cart{
+  height: 40%;
+ }
+
+.btn-primary{
+  height: 40%;
+}
+
+
+.show-cart li {
+    display: flex;
+  }
+.card {
+    margin-bottom: 20px;
+  }
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.fotopri{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.fotopri img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #efefef;
+  padding: 7px;
+  font-size: 15px;
+  width: 300px;
+  background-color: transparent;
+}
+
+.login-btn {
+  width: 90%;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login-btn:hover {
+  background-color: #a3684d;
+  transition: all 0.3s;
+}
+.user-container,
+.pass-container,
+.login-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-container {
+  margin-top: 50px;
+}
+
+.valid {
+  background-color: rgb(50, 141, 50);
+  font-size: 14px;
+  color: #fff;
+  padding: 1px 3px;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+}
+
+.invalid {
+  background-color: rgb(201, 63, 63);
+  font-size: 14px;
+  color: #fff;
+  padding: 1px 3px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.anchoFooter {
+  margin-top: 30px;
+  background-color: white;
+  text-align: center; }
+
+.redes {
+  display: inline-block; }
+
+.bi-facebook, .bi-whatsapp, .bi-instagram {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-facebook:hover, .bi-whatsapp:hover, .bi-instagram:hover {
+    color: blue; }
+
+.bi-whatsapp:hover {
+  color: green; }
+
+.bi-instagram:hover {
+  color: red; }
+
+  .contact-form {
+    --form-ok-color: #4caf50;
+    --form-error-color: #f44336;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  .contact-form>* {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+    background-color: white;
+  }
+
+  .contact-form textarea {
+    resize: none;
+  }
+
+  .contact-form legend,
+  .contact-form-response {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+
+  .contact-form input[type="submit"] {
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .contact-form *::placeholder {
+    color: #000;
+  }
+
+  .contact-form [required]:valid {
+    border: thin solid var(--form-ok-color);
+  }
+
+  .contact-form [required]:invalid {
+    border: thin solid var(--form-error-color);
+  }
+
+  .contact-form-error {
+    margin-top: -1rem;
+    font-size: 80%;
+    background-color: var(--form-error-color);
+    color: #fff;
+    transition: all 800ms ease;
+  }
+
+  .contact-form-error.is-active {
+    display: block;
+    animation: show-message 1s 1 normal 0s ease-out both;
+  }
+
+  .none {
+    display: none;
+  }
+
+  @keyframes show-message {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
